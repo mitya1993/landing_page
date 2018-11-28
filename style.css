@@ -1,0 +1,162 @@
+@font-face{
+	font-family: Sabelia;
+	font-family: Tahoma;
+	font-family: Slimamif;
+	font-family: Lato;
+	src:url(fonts/Lato.ttf);
+	src:url(fonts/Sabelia.ttf);
+	src:url(fonts/Tahoma.ttf);
+	src:url(fonts/Slimamif.ttf);
+}
+.section-1{
+	background: url(image/image-header/header.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 35px 0 35px 0;
+	font-family: Tahoma;
+}
+.section-1 .spisok-1 li{
+	list-style: none;
+	display: inline;
+	margin: 5px;
+}
+.section-1 .spisok-1 {
+	margin-top: 20px;
+}
+.section-1 .spisok-1 a{
+	font-size: 14px;
+	color: rgb(255,255,255);
+}
+.section-1 .spisok-1 a:hover{
+	color: rgb(136,121,111);
+}
+.section-1 .input{
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	background: url(image/image-header/search.png) no-repeat;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.section-1 .h-1, .section-1 .p-1, .section-1 .p-2{
+	color: white;
+}
+.section-1 .h-1{
+	font-size: 25px;
+}
+.section-1 .p-2{
+	font-size: 12px;
+}
+.section-1 .p-1{
+	font-size: 40px;
+}
+.section-1 #carousel {
+	margin-top: 200px;
+}
+.section-1 button{
+	width: 170px;
+	height: 53px;
+	background: rgb(153,134,117);
+	border-radius: 5px;
+	color: white;
+	margin-top: 30px;
+}
+
+.section-1 .glyphicon{
+	margin-top: 280px;
+}
+.carousel-indicators{
+
+		margin-top: 230px;
+}
+.carousel-inner{
+	padding-bottom: 324px;
+}
+/*style of class section-2*/
+.section-2{
+	padding:81px 0 76px 0;
+}
+.section-2 .web-and-App-design h1,.section-2 .Development h1, .section-2 .Customization h1, .section-2 .Marketing h1{
+	font-size: 30px;
+}
+.section-2 .web-and-App-design p,.section-2 .Development p, .section-2 .Marketing p{
+	color: rgb(140,140,140);
+}
+.section-2 .Customization p{
+	color: rgb(140,140,140);
+}
+.section-2 .web-and-App-design hr, .section-2 .Development hr, .section-2 .Customization hr, .section-2 .Marketing hr{
+	background: rgb(241,238,233);
+	width: 100px;
+	height: 5px;
+}
+
+.section-2 .web-and-App-design img:hover{
+	background: url(image/image-section-2/pen-1.png);
+}
+
+.section-2 .web-and-App-design h1:hover{
+	color: rgb(199,178,153);
+}
+.section-2 .Development h1, .section-2 .Marketing h1{
+	margin-top: 30px;
+}
+.section-2 .Customization h1{
+	margin-top: 23px;
+}
+.section-2 .Development h1:hover{
+	color: rgb(199,178,153);
+}
+.section-2 .Customization h1:hover{
+	color: rgb(199,178,153);
+}
+.section-2 .Marketing h1:hover{
+	color: rgb(199,178,153);
+}
+/*styly of section-2 with pseudo-class HOVER*/
+
+.section-2 .web-image{
+	width: 49px;height: 49px;
+	margin: 0 auto;
+	background:url(image/image-section-2/pen.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.web-image:hover{
+	background:url(image/image-section-2/pen-1.png);
+}
+.section-2 .dev{
+	width: 44px;height: 39px;
+	margin: 0 auto;
+	background:url(image/image-section-2/blok-2.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.dev:hover{
+	background:url(image/image-section-2/blok-1.png);
+}
+
+.section-2 .custom{
+	width: 43px;height: 44px;
+	margin: 0 auto;
+	background:url(image/image-section-2/star-1.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.custom:hover{
+	background:url(image/image-section-2/star-2.png);
+}
+
+.section-2 .folder{
+	width: 52px;height: 36px;
+	margin: 0 auto;
+	background:url(image/image-section-2/folder-1.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.folder:hover{
+	background:url(image/image-section-2/folder-2.png);
+}
+.section-2 hr:hover{
+	background: rgb(199,178,153);
+}
